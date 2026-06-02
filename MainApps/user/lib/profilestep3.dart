@@ -32,7 +32,7 @@ class _CompleteProfilePortfolioState extends State<CompleteProfilePortfolio> {
   static const int maxLinks = 10;
   static const String geminiApiKey = String.fromEnvironment(
     'GEMINI_API_KEY',
-    defaultValue: 'AIzaSyCkdXf1BwhRp_l1LrqwtLZ76F3skF2crOE',
+    defaultValue: 'YOUR_GEMINI_API_KEY_HERE',
   );
 
   // AI STATES
