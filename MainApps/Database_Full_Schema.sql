@@ -325,3 +325,6 @@ VALUES
 ('Chat', 'Chat', true)
 ON CONFLICT (id) DO UPDATE SET public = true;
 
+
+
+ALTER TABLE users RENAME COLUMN name TO full_name;
